@@ -1,6 +1,6 @@
 DEPS= test
 compile: main.cpp
-	 g++ main.c -o $(DEPS)
+	 g++ main.cpp -o $(DEPS)
 
 run: $(DEPS)
 	 ./$(DEPS)  $(var)
