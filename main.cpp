@@ -13,18 +13,19 @@ int main(int argc, char * argv[]) {
  
   cout<<"argc is "<<argc<<endl;
     int i,N;
+    int *a;
     for(i=1;i<argc;i++){
         cout<<"argv[" << i<<"]" <<argv[i]<<endl;
       
     }
     /* Convert to numbers*/
-   int *a;
+    N=argc-1;
     cout<<"Before sorting:";
-    display(a);
+    display(a,N);
     
-    sort(a);
+    sort(a,N);
     cout<<"After sorting:";
-    display(a);
+    display(a,N);
     
     
     return 0;
