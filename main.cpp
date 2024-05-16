@@ -17,6 +17,15 @@ int main(int argc, char * argv[]) {
         cout<<"argv[" << i<<"]" <<argv[i]<<endl;
       
     }
+    /* Convert to numbers*/
+
+    cout<<"Before sorting:";
+    display(a);
+    
+    sort(a);
+    cout<<"After sorting:";
+    display(a);
+    
     
     return 0;
 }
