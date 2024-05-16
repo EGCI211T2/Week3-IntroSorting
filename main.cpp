@@ -18,7 +18,7 @@ int main(int argc, char * argv[]) {
       
     }
     /* Convert to numbers*/
-
+   int *a;
     cout<<"Before sorting:";
     display(a);
     
